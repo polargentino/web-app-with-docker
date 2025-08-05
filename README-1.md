@@ -55,7 +55,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 
 
-Paso 2: El docker-compose.yml (El Orquestador)
+# Paso 2: El docker-compose.yml (El Orquestador)
 Este archivo define todos los servicios de tu aplicación (la web y la base de datos) para que Docker pueda levantarlos con un solo comando.
 
 Crea un archivo llamado docker-compose.yml en el mismo directorio raíz de tu proyecto y pega este código:
